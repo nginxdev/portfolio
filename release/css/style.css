@@ -1,0 +1,34 @@
+/* Sticky footer styles*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 30px;
+}
+.footer {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* particle styles*/
+body {
+    margin: 0;
+}
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
