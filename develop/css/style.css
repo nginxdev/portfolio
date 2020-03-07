@@ -29,3 +29,38 @@ canvas {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+
+body{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+}
+h1.name{
+    display: block;
+    z-index: 998;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+h6.info{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+.light{
+    text-align: center;
+    color: #131313;
+    background: transparent;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+}
