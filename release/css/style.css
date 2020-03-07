@@ -3,9 +3,6 @@ html {
     position: relative;
     min-height: 100%;
 }
-body {
-    margin-bottom: 30px;
-}
 .footer {
     font-size: small;
     position: absolute;
