@@ -30,7 +30,7 @@ canvas {
     background-position: 50% 50%;
 }
 
-
+/* Heading information*/
 body{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-rendering: optimizeLegibility;
@@ -56,6 +56,8 @@ h6.info{
     color: #131313;
     background: transparent;
 }
+
+/* draw over particle canvas*/
 .overlay{
     position: absolute;
     top: 0;
